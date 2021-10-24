@@ -1,0 +1,15 @@
+{
+    "name": "name",
+    "description": "description",
+    "authors": "author",
+    "version": "1.0.0",
+    "main": "pathToMain",
+    "scripts": {
+        "scss": "node-sass --watch scss -o css"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.4",
+        "bootstrap": "^5.0.0-beta3",
+        "node-sass": "^6.0.1"
+    }
+}

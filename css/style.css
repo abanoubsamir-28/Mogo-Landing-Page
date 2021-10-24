@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat&family=Roboto&display=swap");
+.section-head {
+  margin: 0 auto;
+  color: #333333; }
+  .section-head .title {
+    font-family: "Kaushan Script", cursive;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    line-height: 1.1rem; }
+  .section-head .main-head {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 1.8rem;
+    font-size: 1.9rem; }
+  .section-head .line {
+    height: 3px;
+    width: 5%;
+    background: #FCE38A; }
+
+p {
+  font-family: "Roboto", sans-serif;
+  line-height: 22px;
+  font-size: .7rem;
+  font-weight: 400; }
+
+.mogo-gradient {
+  background: #e78483;
+  background: linear-gradient(183deg, #e78483 0%, #f1b386 49%, #fce38a 100%); }
+
+body {
+  background-color: red; }

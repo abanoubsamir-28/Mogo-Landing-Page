@@ -1,9 +1,8 @@
 header {
-    @include backgroundImage()
-    
-    nav {
-        background-color: $secondaryColor;
+    @include backgroundImage("../assests/images/header/picture.png");
+    height: 100vh;
 
+    nav {
         .navbar-nav {
             .nav-item {
                 // width: 25    %;
@@ -18,6 +17,7 @@ header {
                     font-size: .8rem;
                     font-weight: 400;
                 }
+
                 a:hover {
                     color: $mainColor;
                 }
@@ -50,4 +50,71 @@ header {
         }
 
     }
+
+    .carousel {
+        margin: 10% 0;
+
+        .carousel-inner {
+            .carousel-item {
+                h2 {
+                    font-family: $Kaushan;
+                    font-size: 3.5rem;
+                }
+
+                h1 {
+                    font-size: 7rem;
+                    font-weight: 700;
+                    position: relative;
+                }
+
+                h1::after {
+                    content: "";
+                    width: 70px;
+                    height: 3px;
+                    background-color: white;
+                    position: absolute;
+                    top: 100%;
+                    left: 50%;
+                    transform: translate(-50%);
+                }
+
+                button {
+                    border: 1px solid white;
+                    background: transparent;
+                    font-weight: 100;
+                }
+            }
+        }
+
+        .carousel-indicators {
+
+            .indicator {
+                cursor: pointer;
+
+                .main {
+                    height: 1.5px;
+                    background-color: rgba(255, 255, 255, 0.50);
+                }
+
+                h4 {
+                    color: rgba(255, 255, 255, 0.70);
+                    font-size: 1rem;
+                }
+
+                &:hover .main {
+                    background-color: white;
+                }
+
+                &:hover h4 {
+                    color: white;
+                }
+
+                &:hover .clickable {
+                    background-color: $secondaryColor;
+                }
+            }
+        }
+    }
+
+
 }

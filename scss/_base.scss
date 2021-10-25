@@ -151,5 +151,25 @@ header {
         }
     }
 }
-
 // End Aboutus
+
+// Start Counter
+.Counter {
+    background-color: $thirdColor;
+    li {
+        border-left: 1px solid white;
+        border-right: .5px solid white;
+        padding: 3% 0 ;
+        h2 {
+            font-size: 4rem;
+            font-weight: 700;
+        }
+        h6 {
+            font-size: .9rem;
+            font-weight: 400;
+        }
+
+    }
+
+}
+// End Counter

@@ -133,3 +133,16 @@ header {
       box-shadow: 15px 15px 5px 0px rgba(149, 225, 211, 0.75); }
     .aboutus__wrapper .aboutus__item:hover .overlay {
       opacity: .9; }
+
+.Counter {
+  background-color: #95E1D3; }
+  .Counter li {
+    border-left: 1px solid white;
+    border-right: .5px solid white;
+    padding: 3% 0; }
+    .Counter li h2 {
+      font-size: 4rem;
+      font-weight: 700; }
+    .Counter li h6 {
+      font-size: .9rem;
+      font-weight: 400; }

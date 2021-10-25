@@ -151,19 +151,23 @@ header {
         }
     }
 }
+
 // End Aboutus
 
 // Start Counter
 .Counter {
     background-color: $thirdColor;
+
     li {
         border-left: 1px solid white;
         border-right: .5px solid white;
-        padding: 3% 0 ;
+        padding: 3% 0;
+
         h2 {
             font-size: 4rem;
             font-weight: 700;
         }
+
         h6 {
             font-size: .9rem;
             font-weight: 400;
@@ -172,4 +176,31 @@ header {
     }
 
 }
+
 // End Counter
+
+// Start Services 
+.services__wrapper {
+    .services__item {
+        i {
+            color: $thirdColor;
+            font-size: 1.5rem;
+            transform: translate(0, -30%);
+        }
+
+        .services__item__text {
+            h4 {
+                font-size: .9rem;
+                font-weight: 100;
+
+            }
+
+            p {
+                margin: unset;
+            }
+        }
+
+    }
+}
+
+// End Services

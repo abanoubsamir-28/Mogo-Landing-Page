@@ -158,3 +158,14 @@ header {
 
 .services__wrapper .services__item .services__item__text p {
   margin: unset; }
+
+.design {
+  background-image: url("../assests/images/unique design/Layer53.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .design .design__image {
+    top: 60%;
+    left: 59%; }
+  @media (max-width: 1199.98px) {
+    .design .design__image {
+      display: none; } }

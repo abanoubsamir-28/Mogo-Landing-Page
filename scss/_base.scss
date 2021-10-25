@@ -204,3 +204,23 @@ header {
 }
 
 // End Services
+
+
+// Start Design
+.design {
+    @include backgroundImage('../assests/images/unique design/Layer53.png');
+
+    .design__image {
+        top: 60%;
+        left: 59%;
+
+    }
+
+    @media (max-width: 1199.98px) {
+        .design__image {
+            display: none;
+        }
+    }
+}
+
+// End Design

@@ -10,8 +10,9 @@ h6 {
   font-family: "Montserrat", sans-serif; }
 
 .section-head {
-  margin: 0 auto;
-  color: #333333; }
+  margin: 20px auto;
+  color: #333333;
+  text-align: center; }
   .section-head .title {
     font-family: "Kaushan Script", cursive;
     font-size: 1.3rem;
@@ -21,21 +22,28 @@ h6 {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     line-height: 1.8rem;
-    font-size: 1.9rem; }
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    margin: 15px auto; }
   .section-head .line {
     height: 3px;
     width: 5%;
-    background: #FCE38A; }
+    background: #E78483;
+    margin: 15px auto; }
 
 p {
   font-family: "Roboto", sans-serif;
   line-height: 22px;
   font-size: .7rem;
-  font-weight: 400; }
+  font-weight: 400;
+  width: 50%;
+  margin: 30px auto;
+  color: #99999c; }
 
 .mogo-gradient {
   background: #e78483;
-  background: linear-gradient(183deg, #e78483 0%, #f1b386 49%, #fce38a 100%); }
+  background: linear-gradient(183deg, #e78483 0%, #f1b386 49%, #fce38a 100%);
+  transition: .5s; }
 
 header {
   background-image: url("../assests/images/header/picture.png");
@@ -108,3 +116,20 @@ header {
         color: white; }
       header .carousel .carousel-indicators .indicator:hover .clickable {
         background-color: #E78483; }
+
+.aboutus__wrapper {
+  transition: .5s; }
+  .aboutus__wrapper .aboutus__item {
+    cursor: pointer;
+    outline: none; }
+    .aboutus__wrapper .aboutus__item figure .overlay {
+      width: 100%;
+      height: 100%;
+      top: 0;
+      opacity: 0; }
+    .aboutus__wrapper .aboutus__item:hover figure {
+      bottom: 5%;
+      right: 5%;
+      box-shadow: 15px 15px 5px 0px rgba(149, 225, 211, 0.75); }
+    .aboutus__wrapper .aboutus__item:hover .overlay {
+      opacity: .9; }

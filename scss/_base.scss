@@ -1,3 +1,4 @@
+// Start Header
 header {
     @include backgroundImage("../assests/images/header/picture.png");
     height: 100vh;
@@ -118,3 +119,38 @@ header {
 
 
 }
+
+// End Header
+
+
+// Start Aboutus
+.aboutus__wrapper {
+    transition: .5s;
+
+    .aboutus__item {
+        cursor: pointer;
+        outline: none;
+
+        figure {
+            .overlay {
+                width: 100%;
+                height: 100%;
+                top: 0;
+                opacity: 0;
+            }
+        }
+
+        &:hover figure {
+            bottom: 5%;
+            right: 5%;
+            box-shadow: 15px 15px 5px 0px rgba(149, 225, 211, 0.75);
+        }
+
+
+        &:hover .overlay {
+            opacity: .9;
+        }
+    }
+}
+
+// End Aboutus

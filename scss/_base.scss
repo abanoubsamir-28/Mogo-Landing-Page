@@ -213,7 +213,6 @@ header {
     .design__image {
         top: 60%;
         left: 59%;
-
     }
 
     @media (max-width: 1199.98px) {
@@ -224,3 +223,36 @@ header {
 }
 
 // End Design
+
+// Start what we do 
+.whatwedo {
+
+    .accordion {
+        .accordion-item {
+            border: 1px solid gray !important;
+            margin-bottom: 10px;
+
+            h2 {
+                button {
+                    text-transform: uppercase;
+                }
+            }
+
+            .accordion-collapse {
+                p {
+                    height: 130px !important;
+                    overflow-y: scroll;
+                }
+            }
+
+
+            i {
+                margin-right: 10px;
+                color: $thirdColor;
+            }
+        }
+    }
+
+}
+
+// End what we do

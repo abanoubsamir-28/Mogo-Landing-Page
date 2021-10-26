@@ -169,3 +169,15 @@ header {
   @media (max-width: 1199.98px) {
     .design .design__image {
       display: none; } }
+
+.whatwedo .accordion .accordion-item {
+  border: 1px solid gray !important;
+  margin-bottom: 10px; }
+  .whatwedo .accordion .accordion-item h2 button {
+    text-transform: uppercase; }
+  .whatwedo .accordion .accordion-item .accordion-collapse p {
+    height: 130px !important;
+    overflow-y: scroll; }
+  .whatwedo .accordion .accordion-item i {
+    margin-right: 10px;
+    color: #95E1D3; }

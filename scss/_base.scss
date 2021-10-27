@@ -256,3 +256,64 @@ header {
 }
 
 // End what we do
+
+
+// Start Testimonial
+.testimonial {
+    background-color: #f8f8f8;
+
+    .carousel {
+        p {
+            font-size: 1rem;
+            font-weight: 100;
+        }
+
+        .carousel-item {
+            p {
+                padding: 0;
+
+                i {
+                    color: $thirdColor;
+                    font-size: 2rem;
+                    border: 2px solid $thirdColor;
+                }
+            }
+
+            .name {
+                top: 100%;
+                left: 24%;
+                font-family: $Kaushan;
+            }
+
+            .line {
+                width: 40px;
+                height: 1px;
+                background-color: red;
+            }
+        }
+
+        button {
+            span {
+                color: black;
+                font-size: 2rem;
+            }
+        }
+    }
+
+    @media (max-width: 1000px) {
+        .carousel-item {
+            .carousel-item__icon {
+                display: none;
+            }
+
+            p {
+                width: 50%;
+            }
+        }
+
+    }
+}
+
+
+
+// End Testimonial 

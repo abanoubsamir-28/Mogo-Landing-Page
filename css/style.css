@@ -181,3 +181,31 @@ header {
   .whatwedo .accordion .accordion-item i {
     margin-right: 10px;
     color: #95E1D3; }
+
+.testimonial {
+  background-color: #f8f8f8; }
+  .testimonial .carousel p {
+    font-size: 1rem;
+    font-weight: 100; }
+  .testimonial .carousel .carousel-item p {
+    padding: 0; }
+    .testimonial .carousel .carousel-item p i {
+      color: #95E1D3;
+      font-size: 2rem;
+      border: 2px solid #95E1D3; }
+  .testimonial .carousel .carousel-item .name {
+    top: 100%;
+    left: 24%;
+    font-family: "Kaushan Script", cursive; }
+  .testimonial .carousel .carousel-item .line {
+    width: 40px;
+    height: 1px;
+    background-color: red; }
+  .testimonial .carousel button span {
+    color: black;
+    font-size: 2rem; }
+  @media (max-width: 1000px) {
+    .testimonial .carousel-item .carousel-item__icon {
+      display: none; }
+    .testimonial .carousel-item p {
+      width: 50%; } }

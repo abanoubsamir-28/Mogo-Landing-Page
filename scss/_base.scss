@@ -580,3 +580,32 @@ header {
 }
 
 // End Blogs
+
+// Start maps
+.map {
+    @include backgroundImage('../assests/images/map/Layer 59.png');
+    height: 20vh;
+    color: $secondaryColor;
+    cursor: pointer;
+    h3 {
+        font-weight: 700;
+        position: relative;
+
+        &::after {
+            content: "";
+            width: 100px;
+            height: 5px;
+            background-color: $secondaryColor;
+            position: absolute;
+            top: 150%;
+            left: 50%;
+            transform: translate(-50%);
+            -webkit-transform: translate(-50%);
+            -moz-transform: translate(-50%);
+            -ms-transform: translate(-50%);
+            -o-transform: translate(-50%);
+}
+    }
+}
+
+// End Maps

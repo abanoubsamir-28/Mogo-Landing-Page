@@ -372,3 +372,27 @@ header {
   -o-transition: .5s; }
   .blog__wrapper .item span:hover {
     color: black; }
+
+.map {
+  background-image: url("../assests/images/map/Layer 59.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20vh;
+  color: #E78483;
+  cursor: pointer; }
+  .map h3 {
+    font-weight: 700;
+    position: relative; }
+    .map h3::after {
+      content: "";
+      width: 100px;
+      height: 5px;
+      background-color: #E78483;
+      position: absolute;
+      top: 150%;
+      left: 50%;
+      transform: translate(-50%);
+      -webkit-transform: translate(-50%);
+      -moz-transform: translate(-50%);
+      -ms-transform: translate(-50%);
+      -o-transform: translate(-50%); }

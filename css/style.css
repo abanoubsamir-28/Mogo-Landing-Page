@@ -233,6 +233,9 @@ header {
         .team__wrapper .team__item figure .overlay i:hover {
           color: white;
           background-color: #E78483; }
+    .team__wrapper .team__item h6 {
+      font-weight: 100;
+      font-size: .8rem; }
     .team__wrapper .team__item:hover figure {
       bottom: 5%;
       right: 5%;

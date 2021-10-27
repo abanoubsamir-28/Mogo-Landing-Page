@@ -119,9 +119,7 @@ header {
 
 
 }
-
 // End Header
-
 
 // Start Aboutus
 .aboutus__wrapper {
@@ -151,7 +149,6 @@ header {
         }
     }
 }
-
 // End Aboutus
 
 // Start Counter
@@ -176,7 +173,6 @@ header {
     }
 
 }
-
 // End Counter
 
 // Start Services 
@@ -202,9 +198,7 @@ header {
 
     }
 }
-
 // End Services
-
 
 // Start Design
 .design {
@@ -221,7 +215,6 @@ header {
         }
     }
 }
-
 // End Design
 
 // Start what we do 
@@ -254,9 +247,7 @@ header {
     }
 
 }
-
 // End what we do
-
 
 // Start Testimonial
 .testimonial {
@@ -313,10 +304,7 @@ header {
 
     }
 }
-
 // End Testimonial 
-
-
 
 // Start team
 .team__wrapper {
@@ -343,6 +331,7 @@ header {
                     -ms-transition: .5s;
                     -o-transition: .5s;
                     text-align: center;
+
                     &:hover {
                         color: white;
                         background-color: $secondaryColor;
@@ -356,6 +345,7 @@ header {
             font-weight: 100;
             font-size: .8rem;
         }
+
         &:hover figure {
             bottom: 5%;
             right: 5%;
@@ -367,5 +357,55 @@ header {
         }
     }
 }
-
 // End team
+
+// Start Brands
+.brands {
+    background-color: #f8f8f8;
+
+    .brands__wrapper {
+        width: 60%;
+
+        figure {
+            margin: unset;
+            padding: unset;
+            cursor: pointer;
+
+            img {
+                transition: .5s;
+                -webkit-transition: .5s;
+                -moz-transition: .5s;
+                -ms-transition: .5s;
+                -o-transition: .5s;
+            }
+
+            &:hover img {
+                transform: scale(1.3);
+                -webkit-transform: scale(1.3);
+                -moz-transform: scale(1.3);
+                -ms-transform: scale(1.3);
+                -o-transform: scale(1.3);
+            }
+        }
+    }
+
+}
+// End Brands
+
+
+.ourworks {
+    overflow: hidden;
+    figure {
+        margin: 0;
+        cursor: pointer;
+        .overlay {
+            width: 100%;
+            height: 100%;
+            top: 0;
+            opacity: 0;
+        }
+        &:hover .overlay {
+            opacity: .8;
+        }
+    }
+}

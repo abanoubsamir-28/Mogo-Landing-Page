@@ -119,6 +119,7 @@ header {
 
 
 }
+
 // End Header
 
 // Start Aboutus
@@ -149,6 +150,7 @@ header {
         }
     }
 }
+
 // End Aboutus
 
 // Start Counter
@@ -173,6 +175,7 @@ header {
     }
 
 }
+
 // End Counter
 
 // Start Services 
@@ -198,6 +201,7 @@ header {
 
     }
 }
+
 // End Services
 
 // Start Design
@@ -215,6 +219,7 @@ header {
         }
     }
 }
+
 // End Design
 
 // Start what we do 
@@ -247,6 +252,7 @@ header {
     }
 
 }
+
 // End what we do
 
 // Start Testimonial
@@ -304,6 +310,7 @@ header {
 
     }
 }
+
 // End Testimonial 
 
 // Start team
@@ -357,6 +364,7 @@ header {
         }
     }
 }
+
 // End team
 
 // Start Brands
@@ -390,22 +398,84 @@ header {
     }
 
 }
+
 // End Brands
 
 
 .ourworks {
     overflow: hidden;
+
     figure {
         margin: 0;
         cursor: pointer;
+
         .overlay {
             width: 100%;
             height: 100%;
             top: 0;
             opacity: 0;
         }
+
         &:hover .overlay {
             opacity: .8;
         }
     }
 }
+
+
+// Start Testimonial
+.testimonial2 {
+    background-color: #f8f8f8;
+
+    .carousel {
+        p {
+            font-size: 1rem;
+            font-weight: 100;
+        }
+
+        .carousel-item {
+            p {
+                padding: 0;
+
+                img {
+                    border: 5px solid rgba(255, 255, 255, 0.70);
+                    border-radius: 50%;
+                }
+            }
+
+            .name {
+                top: 100%;
+                left: 24%;
+                font-family: $Kaushan;
+            }
+
+            .line {
+                width: 40px;
+                height: 1px;
+                background-color: red;
+            }
+        }
+
+        button {
+            span {
+                color: black;
+                font-size: 2rem;
+            }
+        }
+    }
+
+    @media (max-width: 1000px) {
+        .carousel-item {
+            .carousel-item__icon {
+                display: none;
+            }
+
+            p {
+                width: 50%;
+            }
+        }
+
+    }
+}
+
+// End Testimonial 

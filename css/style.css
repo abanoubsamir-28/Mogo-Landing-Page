@@ -328,3 +328,47 @@ header {
     opacity: .5; }
   .happyclients .row figcaption {
     margin: unset !important; }
+
+.blog__wrapper .item .ticket {
+  background-color: #95E1D3;
+  color: white;
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+  bottom: 5%;
+  left: -5%; }
+  .blog__wrapper .item .ticket h3 {
+    font-weight: 700;
+    margin: unset; }
+  .blog__wrapper .item .ticket h6 {
+    font-weight: 100;
+    font-size: .8rem; }
+
+.blog__wrapper .item h4 {
+  font-weight: 100;
+  font-size: .9rem;
+  color: #79D0C3;
+  cursor: pointer;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s; }
+  .blog__wrapper .item h4:hover {
+    color: black; }
+
+.blog__wrapper .item p {
+  margin: unset;
+  width: 75%; }
+
+.blog__wrapper .item span {
+  color: #79D0C3;
+  font-size: .9rem;
+  cursor: pointer;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s; }
+  .blog__wrapper .item span:hover {
+    color: black; }

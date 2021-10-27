@@ -277,29 +277,54 @@ header {
     .ourworks figure:hover .overlay {
       opacity: .8; }
 
-.testimonial2 {
-  background-color: #f8f8f8; }
-  .testimonial2 .carousel p {
-    font-size: 1rem;
+.testimonial2 .carousel p {
+  font-size: 1rem;
+  font-weight: 100; }
+
+.testimonial2 .carousel .carousel-item p {
+  padding: 0; }
+  .testimonial2 .carousel .carousel-item p img {
+    border: 5px solid rgba(255, 255, 255, 0.7);
+    border-radius: 50%; }
+
+.testimonial2 .carousel .carousel-item .name {
+  top: 100%;
+  left: 24%;
+  font-family: "Kaushan Script", cursive; }
+
+.testimonial2 .carousel .carousel-item .line {
+  width: 40px;
+  height: 1px;
+  background-color: red; }
+
+.testimonial2 .carousel button span {
+  color: black;
+  font-size: 2rem; }
+
+@media (max-width: 1000px) {
+  .testimonial2 .carousel-item .carousel-item__icon {
+    display: none; }
+  .testimonial2 .carousel-item p {
+    width: 50%; } }
+
+.happyclients {
+  background-image: url("../assests/images/happy clients/Layer 53.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .happyclients .row h6 {
+    font-size: .8rem;
     font-weight: 100; }
-  .testimonial2 .carousel .carousel-item p {
-    padding: 0; }
-    .testimonial2 .carousel .carousel-item p img {
-      border: 5px solid rgba(255, 255, 255, 0.7);
-      border-radius: 50%; }
-  .testimonial2 .carousel .carousel-item .name {
-    top: 100%;
-    left: 24%;
-    font-family: "Kaushan Script", cursive; }
-  .testimonial2 .carousel .carousel-item .line {
-    width: 40px;
-    height: 1px;
-    background-color: red; }
-  .testimonial2 .carousel button span {
-    color: black;
-    font-size: 2rem; }
-  @media (max-width: 1000px) {
-    .testimonial2 .carousel-item .carousel-item__icon {
-      display: none; }
-    .testimonial2 .carousel-item p {
-      width: 50%; } }
+  .happyclients .row p {
+    margin: unset;
+    position: relative; }
+  .happyclients .row .job::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: red;
+    top: 110%;
+    left: 0%;
+    opacity: .5; }
+  .happyclients .row figcaption {
+    margin: unset !important; }

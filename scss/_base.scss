@@ -402,6 +402,7 @@ header {
 // End Brands
 
 
+// Start ourWorks
 .ourworks {
     overflow: hidden;
 
@@ -422,11 +423,10 @@ header {
     }
 }
 
+// End ourWorks
 
-// Start Testimonial
+// Start Testimonial 2
 .testimonial2 {
-    background-color: #f8f8f8;
-
     .carousel {
         p {
             font-size: 1rem;
@@ -478,4 +478,41 @@ header {
     }
 }
 
-// End Testimonial 
+// End Testimonial 2
+
+
+// Start Happy Clients
+.happyclients {
+    @include backgroundImage('../assests/images/happy clients/Layer 53.png');
+
+    .row {
+        h6 {
+            font-size: .8rem;
+            font-weight: 100;
+        }
+
+        p {
+            margin: unset;
+            position: relative;
+        }
+
+        .job {
+            &::after {
+                content: "";
+                position: absolute;
+                width: 50px;
+                height: 3px;
+                background-color: red;
+                top: 110%;
+                left: 0%;
+                opacity: .5;
+            }
+        }
+
+        figcaption {
+            margin: unset !important;
+        }
+    }
+}
+
+// End Happy Clients

@@ -1,0 +1,114 @@
+
+
+{
+    "header" : {
+        "navbar" : {
+            "home" : "home" ,
+            "about" : "about us" ,
+            "service" :"services" , 
+            "team" : "team" , 
+            "work" :"works" , 
+            "blog" :"blogs"
+        } , 
+        "content" : {
+            "maintitle" : "welcome to mogo" , 
+            "secondarytitle" : "creative template" , 
+            "learnmore" :"learn more" , 
+            "intro" :"01 intro" ,
+            "work" : "02 works" , 
+            "about" : "03 about" , 
+            "contact" : "04 contacts"
+        }
+    } , 
+    "aboutus" : {
+        "head" :{
+            "secondarytitle" : "what we do" ,
+            "maintitle" : "story about us" 
+        } 
+    } , 
+    "counter" :{
+        "webdesign" : "web design projects" ,
+        "happyclients" : "happy clients" , 
+        "awards" :"award winner" , 
+        "coffee" :"cup of coffee" ,
+        "members" :"members"
+    } , 
+    "services" : {
+        "head" : {
+            "maintitle" : "amazing services" ,
+            "secondarytitle":"we work with"
+        } ,
+        "content" : {
+            "item1" :{
+                "title" : "photography" ,
+                "content" :"Photography is the science, art and practice of creating durable images by recording light or other electromagnetic radiation" 
+
+            } ,
+            "item2" :{
+                "title" : "web design"  ,
+                "content" :"Web design encompasses many different skills and disciplines in the production and maintenance of websites. "
+
+            } ,
+            "item3" :{
+                "title": "creativity" ,
+                "content" :"Creativity is a phenomenon whereby something new and somehow valuable is formed. The created item may be intangible or a physical object."
+
+            } ,
+            "item4" :{
+                "title" : "seo" ,
+                "content" :" Search engine optimization (SEO) is the process of affecting the visibility of a website or a web page in a web search engine's unpaid results."
+
+            } ,
+            "item5" :{
+                "title" :"Css/Html" ,
+                "content" :"HyperText Markup Language, commonly abbreviated as HTML, is the standard markup language used to create web pages. "
+                
+            } ,
+            "item6" :{
+                "title" :"digital"
+                ,
+                "content" :"With digital signals, system noise, provided it is not too great, will not change the quantification whereas with signals handled using analog processing."
+            } 
+        }
+    } , 
+    "uniquedesign" : {
+        "maintitle" : " unique design" ,
+        "secondarytitle" : "for all devices"
+    } , 
+    "services2" :{
+        "head" : {
+            "secondarytitle" : "services" ,
+            "maintitle" : "what we do"
+        } , 
+        "content" : {
+            "item1" :{
+                "title" : "photography" ,
+                "content" :"Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. "
+            } ,
+            "item2" :{
+                "title" : "creativity"  ,
+                "content" :" Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS."
+            } ,
+            "item3" :{
+                "title": "web design" ,
+                "content" :"Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. "
+            } 
+        }
+    } , 
+    "team" : {
+        "secondarytitle" : "who we are " , 
+        "maintitle" : "meet our team"
+    } ,
+    "works" : {
+        "secondarytitle" : "what we do " , 
+        "maintitle" : "some of our work"
+    } ,
+    "clients" : {
+        "secondarytitle" : "happy clients" , 
+        "maintitle" : "what people say"
+    } , 
+    "blogs" : {
+        "secondarytitle" : "our stories " , 
+        "maintitle" : "latest blog"
+    }
+}

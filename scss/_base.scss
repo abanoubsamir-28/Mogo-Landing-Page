@@ -587,6 +587,7 @@ header {
     height: 20vh;
     color: $secondaryColor;
     cursor: pointer;
+
     h3 {
         font-weight: 700;
         position: relative;
@@ -604,8 +605,136 @@ header {
             -moz-transform: translate(-50%);
             -ms-transform: translate(-50%);
             -o-transform: translate(-50%);
-}
+        }
     }
 }
 
 // End Maps
+
+// Start Footer 
+.footer {
+    .item1 {
+        h3 {
+            font-weight: 700;
+            font-size: 2.7rem;
+            color: gray;
+            opacity: .6;
+        }
+
+        h6 {
+            font-weight: 100;
+        }
+
+        p {
+            span {
+                font-size: .8rem;
+
+                i {
+                    color: $thirdColor;
+                    font-size: 1rem;
+                    padding: 5px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .search {
+            input {
+                padding: .8rem;
+                border-radius: unset;
+                -webkit-border-radius: unset;
+                -moz-border-radius: unset;
+                -ms-border-radius: unset;
+                -o-border-radius: unset;
+
+                &::placeholder {
+                    font-style: italic;
+                    text-transform: capitalize;
+                }
+            }
+
+            button {
+                background-color: $thirdColor;
+                padding: .9rem;
+                color: white;
+                font-weight: 700;
+                font-size: 1rem;
+                text-transform: uppercase;
+                border-radius: unset;
+            }
+        }
+    }
+
+    .blogs {
+        h6 {
+            font-weight: 100;
+
+        }
+
+        .blog__item {
+
+            .item__text {
+                h4 {
+                    font-weight: 100;
+                    font-size: .9rem;
+                    color: #79D0C3;
+                    cursor: pointer;
+                    transition: .5s;
+                    -webkit-transition: .5s;
+                    -moz-transition: .5s;
+                    -ms-transition: .5s;
+                    -o-transition: .5s;
+
+                    &:hover {
+                        color: black;
+                    }
+                }
+
+                p {
+
+                    margin: unset;
+                    padding: unset;
+                }
+            }
+
+        }
+    }
+
+    .instgram {
+        h6 {
+            font-weight: 100;
+
+        }
+
+        p {
+            margin: unset;
+        }
+
+        .images {
+            figure {
+                margin: unset;
+            }
+        }
+    }
+
+    .final {
+        p {
+            margin: unset;
+            span {
+                color: $thirdColor;
+                cursor: pointer;
+                transition: .5s;
+                -webkit-transition: .5s;
+                -moz-transition: .5s;
+                -ms-transition: .5s;
+                -o-transition: .5s;
+                &:hover {
+                    color: red;
+                    opacity: .7;
+                }
+            }
+        }
+    }
+}
+
+// End Footer

@@ -174,6 +174,32 @@ header {
         color: white; }
       header .carousel .carousel-indicators .indicator:hover .clickable {
         background-color: #E78483; }
+  header .searchoverlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: -200%;
+    transition: .5s; }
+    header .searchoverlay input {
+      padding: .8rem; }
+    header .searchoverlay button {
+      padding: .8rem 2rem;
+      background-color: white;
+      font-family: "Kaushan Script", cursive;
+      font-size: 1rem;
+      transition: .5s; }
+      header .searchoverlay button:hover {
+        background-color: black;
+        color: white; }
+    header .searchoverlay i {
+      top: 10%;
+      right: 10%;
+      color: white;
+      font-size: 3rem;
+      cursor: pointer;
+      transition: .5s; }
+      header .searchoverlay i:hover {
+        color: red; }
 
 @media (max-width: 1199.98px) {
   header .carousel .carousel-inner .carousel-item h1,
@@ -550,3 +576,13 @@ main .footer .final p {
     main .footer .final p span:hover {
       color: red;
       opacity: .7; }
+
+body {
+  scroll-behavior: smooth; }
+  body::-webkit-scrollbar {
+    width: 1em; }
+  body::-webkit-scrollbar-track {
+    background: #e78483;
+    background: linear-gradient(183deg, #e78483 0%, #f1b386 49%, #fce38a 100%); }
+  body::-webkit-scrollbar-thumb {
+    background: #FCE38A; }
